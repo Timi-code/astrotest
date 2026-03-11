@@ -1,0 +1,7 @@
+[build]
+  publish = "dist"  # 替换为你的构建输出目录
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
